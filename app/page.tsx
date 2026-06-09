@@ -114,60 +114,30 @@ const stack = [
 
 const projects = [
   {
-    title: "MoreThanLenses",
+    title: "IEFA",
     role: "Team Lead · Full-Stack",
     description:
-      "Led design and full-stack development of a media & photography platform — owned UI design in Figma and delivered the full application across an AngularJS frontend and PHP/Laravel backend.",
-    thumbnail: "/placeholder.jpg",
-    link: "",
+      "Backend Engineer. Responsible for the architecture, design and implementation of backend apis using nest.js, postgresql, as well as mentoring junior developers, and leading the frontend team to build responsive, user-friendly interfaces and optimize the website for performance and accessibility",
+    thumbnail: "/project-thumbnails/iefa-thumbnail.png",
+    link: "https://iefa.ng",
   },
   {
-    title: "Zari",
-    role: "Frontend Engineer",
+    title: "ERP OUTSOURCE GLOBAL",
+    role: "Lead Frontend Engineer",
     description:
-      "A responsive admin dashboard for an eCommerce company, built in Vue.js and Nuxt.js with real-time data visualization and user management.",
-    thumbnail: "https://i.ibb.co/7N4bdCnF/Screenshot-2025-08-26-at-12-25-47.png",
-    link: "https://zari.ng/",
+      "An ERP system for outsource global, built in next.js, using typescript, shadcn ui and tailwind css with real-time data visualization and user management.",
+    thumbnail: "/project-thumbnails/ERP-thumbnail.png",
+    link: "https://erp.outsourceglobal.com",
   },
   {
     title: "Crown Takaful",
-    role: "Design + Frontend",
+    role: "Design . Frontend",
     description:
-      "Website, mobile app design and admin dashboard for an insurance company — Figma and WordPress for the site, Next.js and Tailwind for the dashboard.",
-    thumbnail: "https://i.ibb.co/FbdBGRm4/Screenshot-2025-08-26-at-09-04-18.png",
-    link: "https://peru-sparrow-169854.hostingersite.com/",
-  },
-  {
-    title: "Connected Health",
-    role: "Frontend Engineer",
-    description:
-      "Implemented designs in React and integrated the API across multiple features of a healthcare platform.",
-    thumbnail: "https://i.ibb.co/HT9dVYs7/Screenshot-2025-08-26-at-09-40-47.png",
-    link: "https://platform.connecthealthpro.com",
-  },
-  {
-    title: "Worknation Africa",
-    role: "Backend Engineer",
-    description: "Designed and built REST APIs in Nest.js for a workforce platform.",
-    thumbnail: "https://i.ibb.co/YMX6kdj/Screenshot-2025-08-26-at-09-51-51.png",
-    link: "https://worknation.africa/",
-  },
-  {
-    title: "Stacktron Technologies",
-    role: "Product Design",
-    description:
-      "Designed the website in Figma for an AI innovation company based in Abuja, Nigeria.",
-    thumbnail: "https://i.ibb.co/CKfCz2KX/Screenshot-2025-08-26-at-12-25-29.png",
-    link: "https://www.stackron.com",
-  },
-  {
-    title: "Fly-Bird",
-    role: "Product Design",
-    description:
-      "Designed the landing page for a new aviation company using Figma, Adobe Illustrator and Canva.",
-    thumbnail: "https://i.ibb.co/gLKqz7J5/Screenshot-2025-08-26-at-09-22-57.png",
-    link: "https://flybird.aero",
-  },
+      "Website, mobile app design and admin dashboard for an Islamicc insurance company — Figma and WordPress for the site, Next.js and Tailwind for the dashboard.",
+    thumbnail: "/project-thumbnails/Crown-Takaful-Thumbnail.png",
+    link: "https://crowntakaful.com",
+ },
+  
 ]
 
 /* Reveal-on-scroll — the single, restrained motion on the page */
