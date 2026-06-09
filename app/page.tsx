@@ -134,7 +134,7 @@ const projects = [
     role: "Design . Frontend",
     description:
       "Website, mobile app design and admin dashboard for an Islamicc insurance company — Figma and WordPress for the site, Next.js and Tailwind for the dashboard.",
-    thumbnail: "/project-thumbnails/Crown-Takaful-Thumbnail.png",
+    thumbnail: "/project-thumbnails/Crown-Takkaful-Thumbnail.png",
     link: "https://crowntakaful.com",
  },
   
