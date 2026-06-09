@@ -1,0 +1,12 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Najiu Danesi monogram">
+  <rect width="512" height="512" rx="120" fill="#15171B"/>
+  <rect x="18" y="18" width="476" height="476" rx="104" fill="none" stroke="#E7A83F" stroke-opacity="0.32" stroke-width="4"/>
+  <g fill="#E7A83F">
+    <!-- N -->
+    <rect x="70" y="150" width="44" height="212" rx="6"/>
+    <rect x="180" y="150" width="44" height="212" rx="6"/>
+    <polygon points="70,150 114,150 224,362 180,362"/>
+    <!-- D -->
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M268 150 L350 150 C 422 150 452 198 452 256 C 452 314 422 362 350 362 L268 362 Z M312 194 L350 194 C 392 194 408 222 408 256 C 408 290 392 318 350 318 L312 318 Z"/>
+  </g>
+</svg>
