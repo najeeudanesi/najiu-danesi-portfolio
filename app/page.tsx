@@ -35,47 +35,57 @@ const NAV = [
 const capabilities = [
   {
     icon: Layers,
-    title: "Frontend engineering",
-    body: "Accessible, production-ready interfaces in React, Next.js and Vue — responsive, semantic and built to last across real client storefronts.",
-  },
-  {
-    icon: Server,
-    title: "Backend & APIs",
-    body: "REST APIs and application logic in Ruby on Rails and PHP/Laravel. Comfortable owning a feature from the database to the screen.",
-  },
-  {
-    icon: ShoppingBag,
-    title: "eCommerce platforms",
-    body: "Shipping and customizing storefronts on Shopify and Magento — themes, integrations and the checkout details that move revenue.",
+    title: "React & Next.js",
+    body: "Production-grade UIs with React and Next.js — component architecture, SSR/SSG, state management, and interfaces that hold up under real traffic.",
   },
   {
     icon: Gauge,
-    title: "Performance & access",
-    body: "Improving Core Web Vitals and meeting WCAG 2.1 AA — fast, usable products for everyone, including users on assistive tech.",
+    title: "Performance & accessibility",
+    body: "Core Web Vitals optimisation and WCAG 2.1 AA compliance across every project. Fast, usable products for all users — including those on assistive tech.",
+  },
+  {
+    icon: Server,
+    title: "Backend exposure",
+    body: "Node.js, Nest.js and Ruby on Rails when needed. I integrate APIs, contribute endpoints, and own features end-to-end without becoming a bottleneck.",
+  },
+  {
+    icon: ShoppingBag,
+    title: "Design systems & UI",
+    body: "Translating Figma designs into pixel-perfect, accessible components — Tailwind CSS, Shadcn UI, and custom design systems built for scale.",
   },
 ]
 
 const experiences = [
   {
-    title: "Software Developer",
+    title: "Senior Frontend Engineer",
     company: "Outsource Global",
     meta: "Remote · Apr 2023 — Present",
     points: [
-      "Built and shipped frontend features for client eCommerce platforms in React.js and JavaScript, delivering responsive, production-ready storefronts.",
-      "Improved site performance and Core Web Vitals across client projects, optimizing load times and rendering efficiency.",
-      "Implemented WCAG 2.1 AA accessibility standards, improving usability for users on assistive technology.",
-      "Developed and customized themes and integrations on Shopify and Magento.",
+      "Led frontend architecture across Payroll, Recruitment, Task Management and Attendance modules of the company ERP — built in Next.js, TypeScript and Shadcn UI.",
+      "Automated previously manual workflows, giving management real-time visibility into payroll operations and driving a 200% increase in captured talent-pool data through redesigned data-entry interfaces.",
+      "Implemented WCAG 2.1 AA accessibility standards across all client-facing surfaces, improving usability for users on assistive technology.",
+      "Improved Core Web Vitals across client projects, reducing load times and increasing rendering efficiency.",
     ],
-    tags: ["React.js", "JavaScript", "Shopify", "Magento", "Accessibility"],
+    tags: ["Next.js", "TypeScript", "Shadcn UI", "Tailwind CSS", "Accessibility"],
+  },
+  {
+    title: "Frontend Lead & Backend Engineer (Contract)",
+    company: "IEFA",
+    meta: "2024",
+    points: [
+      "Architected and built backend APIs with Nest.js and PostgreSQL, then led the frontend team to ship a performant, accessible web application.",
+      "Mentored junior developers — providing code reviews, setting standards and unblocking day-to-day implementation decisions.",
+      "Met WCAG 2.1 AA accessibility requirements across all user-facing pages.",
+    ],
+    tags: ["Nest.js", "PostgreSQL", "Next.js", "Tailwind CSS", "Team Lead"],
   },
   {
     title: "Frontend Developer (Contract)",
     company: "Contrack Innovation Hub",
     meta: "Mar 2024 — Nov 2024",
     points: [
-      "Implemented designs and prototypes in Vue.js and Nuxt for a full-scale eCommerce platform.",
-      "Contributed to planning and architecture across the build.",
-      "Prepared and maintained clear, accurate program documentation.",
+      "Built out UI in Vue.js and Nuxt for a full-scale eCommerce platform, from architecture planning through to production delivery.",
+      "Contributed to technical planning and maintained clear program documentation throughout the engagement.",
     ],
     tags: ["Vue.js", "Nuxt", "eCommerce"],
   },
@@ -84,20 +94,18 @@ const experiences = [
     company: "Greenzone Technologies",
     meta: "Nov 2023 — May 2024",
     points: [
-      "Implemented designs in React and integrated REST APIs across the application.",
-      "Maintained the website and shipped updates that enhanced the user experience.",
-      "Built responsive, user-friendly interfaces.",
+      "Implemented pixel-perfect designs in React and integrated REST APIs across the application.",
+      "Shipped iterative updates that measurably improved the user experience and reduced reported UI bugs.",
     ],
-    tags: ["React", "REST APIs", "Responsive"],
+    tags: ["React", "REST APIs", "Responsive Design"],
   },
   {
-    title: "Software Developer & Web Dev Tutor",
+    title: "Software Developer & Web Dev Instructor",
     company: "CoreByte Edge Solutions",
     meta: "2021 — 2022",
     points: [
-      "Taught web development fundamentals — HTML, CSS, JavaScript — guiding students through building functional projects.",
-      "Maintained and updated company and client websites, improving UX and performance.",
-      "Authored and maintained technical documentation for clarity and consistency.",
+      "Taught HTML, CSS and JavaScript to cohorts of students — 6 of 10 students I trained now work as professional developers.",
+      "Maintained and improved company and client websites, delivering measurable UX and performance gains.",
     ],
     tags: ["HTML/CSS", "JavaScript", "Mentoring"],
   },
@@ -114,30 +122,35 @@ const stack = [
 
 const projects = [
   {
-    title: "IEFA",
-    role: "Team Lead · Full-Stack",
-    description:
-      "Backend Engineer. Responsible for the architecture, design and implementation of backend apis using nest.js, postgresql, as well as mentoring junior developers, and leading the frontend team to build responsive, user-friendly interfaces and optimize the website for performance and accessibility",
-    thumbnail: "/project-thumbnails/iefa-thumbnail.png",
-    link: "https://iefa.ng",
-  },
-  {
-    title: "ERP OUTSOURCE GLOBAL",
+    title: "ERP — Outsource Global",
     role: "Lead Frontend Engineer",
+    problem: "Manual payroll and HR workflows with no real-time visibility for management.",
     description:
-      "An ERP system for outsource global, built in next.js, using typescript, shadcn ui and tailwind css with real-time data visualization and user management.",
+      "Led frontend architecture across Payroll, Recruitment, Task Management and Attendance modules. Redesigned data-entry interfaces drove a 200% increase in captured talent-pool data and automated workflows that previously required manual intervention.",
+    stack: ["Next.js", "TypeScript", "Shadcn UI", "Tailwind CSS"],
     thumbnail: "/project-thumbnails/ERP-thumbnail.png",
     link: "https://erp.outsourceglobal.com",
   },
   {
-    title: "Crown Takaful",
-    role: "Design . Frontend",
+    title: "IEFA",
+    role: "Frontend Lead · Backend Engineer",
+    problem: "A platform that needed both a robust API layer and an accessible, performant frontend — with no existing architecture.",
     description:
-      "Website, mobile app design and admin dashboard for an Islamicc insurance company — Figma and WordPress for the site, Next.js and Tailwind for the dashboard.",
+      "Architected backend APIs in Nest.js and PostgreSQL, then led the frontend team to ship an accessible web application meeting WCAG 2.1 AA. Mentored junior developers through code reviews and implementation decisions.",
+    stack: ["Nest.js", "PostgreSQL", "Next.js", "Tailwind CSS"],
+    thumbnail: "/project-thumbnails/iefa-thumbnail.png",
+    link: "https://iefa.ng",
+  },
+  {
+    title: "Crown Takaful",
+    role: "Design & Frontend",
+    problem: "An Islamic insurance company with no digital presence — needed a site, mobile design and admin dashboard from scratch.",
+    description:
+      "Delivered end-to-end: brand-aligned marketing site in WordPress, UI/UX designs in Figma, and an admin dashboard built in Next.js and Tailwind CSS.",
+    stack: ["Figma", "WordPress", "Next.js", "Tailwind CSS"],
     thumbnail: "/project-thumbnails/Crown-Takkaful-Thumbnail.png",
     link: "https://crowntakaful.com",
- },
-  
+  },
 ]
 
 /* Reveal-on-scroll — the single, restrained motion on the page */
@@ -268,26 +281,27 @@ export default function Portfolio() {
       <header className="relative px-6 pt-36 pb-20 md:pt-44 md:pb-28">
         <div ref={heroRef} className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
           <div className="reveal">
-            <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-border bg-card px-3.5 py-1.5 text-xs text-muted-foreground">
+            <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-primary/30 bg-primary/10 px-3.5 py-1.5 text-xs text-primary">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/60" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
               </span>
-              Available for full-stack roles &amp; projects
+              Open to work — Senior Frontend roles, remote &amp; international
             </div>
 
             <h1 className="font-display text-[2.7rem] leading-[1.04] tracking-tight sm:text-6xl lg:text-[4.2rem]">
-              I build products
+              I build interfaces
               <br />
-              end-to-end —{" "}
-              <span className="text-primary">interface</span>
-              <br className="hidden sm:block" /> to infrastructure.
+              that perform —{" "}
+              <span className="text-primary">React</span>
+              <br className="hidden sm:block" /> and Next.js, production&#8209;grade.
             </h1>
 
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              I&apos;m Najiu Danesi, a full-stack software engineer with{" "}
-              <span className="text-foreground">6+ years</span> shipping production web applications —
-              from accessible React and Next.js frontends to Ruby on Rails and PHP/Laravel backends.
+              I&apos;m{" "}
+              <span className="text-foreground">Najiu Danesi</span>, Senior Frontend Engineer with{" "}
+              <span className="text-foreground">6+ years</span> shipping production web applications.
+              I specialise in React and Next.js — and can own a feature end-to-end when needed.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-4">
@@ -312,8 +326,11 @@ export default function Portfolio() {
                 <MapPin className="h-4 w-4 text-primary" /> Abuja, Nigeria · Remote
               </span>
               <span className="hidden h-4 w-px bg-border sm:block" />
-              <span>React · Next.js · Rails · Laravel</span>
+              <span>React · Next.js · TypeScript · Node.js</span>
             </div>
+            <p className="mt-4 text-xs text-muted-foreground">
+              Seeking: Senior Frontend roles (remote) · $2,000/mo+ · Full-stack where Rails/Node adds value
+            </p>
           </div>
 
           {/* Portrait */}
@@ -344,15 +361,15 @@ export default function Portfolio() {
           </div>
           <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_0.5fr]">
             <p className="reveal font-display text-2xl leading-[1.45] tracking-tight sm:text-[2rem] sm:leading-[1.4]">
-              I like owning a feature from the database to the screen. Over the last six years
-              I&apos;ve delivered production eCommerce, optimized performance, met accessibility
-              standards, led small teams, and used AI tooling to ship faster without sacrificing
-              quality.
+              Six years of frontend depth — React, Next.js, TypeScript — shipping production web applications
+              across ERP systems, eCommerce platforms and SaaS products. I lead UI architecture,
+              mentor engineers, hit accessibility standards, and contribute backend endpoints when the
+              feature demands it. Frontend is my lane. I own it at a senior level.
             </p>
             <dl className="reveal space-y-6 text-sm" style={{ transitionDelay: "100ms" }}>
               {[
-                ["Experience", "6+ years, full-stack"],
-                ["Focus", "Web apps & eCommerce"],
+                ["Experience", "6+ years frontend-led"],
+                ["Focus", "React, Next.js, TypeScript"],
                 ["Education", "Adv. Frontend Dev — Qwasar Silicon Valley"],
                 ["Languages", "English (professional)"],
               ].map(([k, v]) => (
@@ -446,7 +463,7 @@ export default function Portfolio() {
           <div className="reveal flex items-end justify-between gap-6">
             <SectionLabel index="04">Selected work</SectionLabel>
             <p className="hidden max-w-xs text-right text-sm text-muted-foreground sm:block">
-              A mix of full-stack builds, frontend engineering and product design.
+              Frontend-led builds — real products, real outcomes.
             </p>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -470,9 +487,26 @@ export default function Portfolio() {
                         <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />
                       )}
                     </h3>
+                    {project.problem && (
+                      <p className="mt-2 text-xs font-medium uppercase tracking-wide text-muted-foreground/70">
+                        Problem: {project.problem}
+                      </p>
+                    )}
                     <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
                       {project.description}
                     </p>
+                    {project.stack && (
+                      <div className="mt-4 flex flex-wrap gap-1.5">
+                        {project.stack.map((tag: string) => (
+                          <span
+                            key={tag}
+                            className="rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </article>
               )
@@ -493,6 +527,20 @@ export default function Portfolio() {
                 </div>
               )
             })}
+          </div>
+
+          {/* GitHub callout */}
+          <div className="reveal mt-12 flex items-center justify-center">
+            <Link
+              href={GITHUB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 rounded-full border border-border bg-card px-5 py-2.5 text-sm text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+            >
+              <Github className="h-4 w-4 text-primary" />
+              See the code →{" "}
+              <span className="font-mono text-xs text-primary">github.com/najeeudanesi</span>
+            </Link>
           </div>
         </div>
       </section>
@@ -536,8 +584,8 @@ export default function Portfolio() {
                 something <span className="text-primary">solid</span>.
               </h2>
               <p className="mt-6 max-w-md text-lg leading-relaxed text-muted-foreground">
-                Available for full-stack roles and freelance projects. The fastest way to reach me is
-                email — I read every message.
+                Available for Senior Frontend roles (remote, international) and contracts paying
+                $2,000/mo+ or ₦3,000,000/mo+. The fastest way to reach me is email — I read every message.
               </p>
               <Link
                 href={`mailto:${EMAIL}`}
@@ -582,7 +630,7 @@ export default function Portfolio() {
       <footer className="border-t border-border px-6 py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 text-sm text-muted-foreground sm:flex-row">
           <span className="font-display text-base text-foreground">Najiu Danesi</span>
-          <span>© {new Date().getFullYear()} — Full-stack software engineer · Abuja, Nigeria</span>
+          <span>© {new Date().getFullYear()} — Senior Frontend Engineer · Abuja, Nigeria</span>
         </div>
       </footer>
     </div>
