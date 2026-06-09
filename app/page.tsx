@@ -18,7 +18,7 @@ import {
 } from "lucide-react"
 
 const CV_URL =
-  "https://drive.google.com/file/d/1lFdFl2PTL0kfZSTx3Vo8QvYm6cmDzN61/view?usp=sharing"
+  "https://drive.google.com/file/d/1V9XTHjTxaTHncWFX28mX5Yw_mj6ncXIA/view?usp=sharing"
 const GITHUB_URL = "https://github.com/najeeudanesi"
 const LINKEDIN_URL = "https://www.linkedin.com/in/najiu-danesi-6a836416a/"
 const EMAIL = "najeeudanesi@gmail.com"
